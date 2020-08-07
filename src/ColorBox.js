@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 export default class ColorBox extends Component {
-  
+
   render() {
     if(this.props.opacity >= 0.2) {
       return (
@@ -13,5 +13,5 @@ export default class ColorBox extends Component {
       return null
     }
   }
-  
+
 }
