@@ -26,3 +26,4 @@ export default class BlogPost extends Component {
     );
   }
 }
+
