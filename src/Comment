@@ -1,0 +1,13 @@
+import React, {Component} from 'react';
+
+
+class Comment extends Component{
+  const Greeting="Hello World!!"
+  render(){
+    return <div className="Comment">{this.props.commentText}</div>
+  
+  }
+
+}
+
+export default Comment;
